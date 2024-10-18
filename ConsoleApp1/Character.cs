@@ -17,8 +17,8 @@ public class Character
         Weapon w = new() {Name = "axe", weight = 10f};
         Consumables p = new() { Name = "Health potion", weight = 2f};
 
-        backpack.Items.Add(w):
-        backpack.Items.Add(p):
+        backpack.Items.Add(w);
+        backpack.Items.Add(p);
 
         Hp = 100;
         Name = "";
